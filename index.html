@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-Markdown Grammar Learn" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/10/01/Markdown%20Grammar%20Learn/" class="article-date">
+  <time datetime="2020-10-01T11:36:00.000Z" itemprop="datePublished">2020-10-01</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/10/01/Markdown%20Grammar%20Learn/">Markdown语法学习</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>好奇心是学习者的第一美德。——居里夫人</p>
+</blockquote>
+<h1 id="Markdown语法学习"><a href="#Markdown语法学习" class="headerlink" title="Markdown语法学习"></a>Markdown语法学习</h1><h2 id="一、-Markdown简介"><a href="#一、-Markdown简介" class="headerlink" title="一、 Markdown简介"></a>一、 Markdown简介</h2><p>&emsp;&emsp;Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。Markdown具有轻量化、可读性等特点，同时支持图表、数学公式等，目前许多网站都支持Markdown，比如CSDN、简书、知乎、GitHub等等。<a href="%5B%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%5D(https://baike.baidu.com/item/markdown/3245829?fr=aladdin)">^1</a>Markdown有许多变种，除了最基本的功能外，有的会添加其他扩展功能，比如画流程图、甘特图等等，所以要注意有的语法不通用。<br>&emsp;&emsp;除了常见的支持Markdown的网站外，也有许多Markdown编辑器，这里列举几个我知道的且使用体验较好的，可以免费使用的：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://joplinapp.org/">Joplin</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/tamlok/vnote">VNote</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.zettlr.com/">Zettlr</a></li>
+<li><a target="_blank" rel="noopener" href="https://typora.io/">Typora</a><br>其他的编辑器可参考<a target="_blank" rel="noopener" href="https://baike.baidu.com/">百度百科</a>或<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-cn">维基百科</a>。</li>
+</ul>
+<h2 id="二、-Markdown基本语法"><a href="#二、-Markdown基本语法" class="headerlink" title="二、 Markdown基本语法"></a>二、 Markdown基本语法</h2><h4 id="2-1-注释"><a href="#2-1-注释" class="headerlink" title="2.1 注释"></a>2.1 注释</h4><ul>
+<li>代码法<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#x27;display: none&#x27;</span>&gt;</span></span><br><span class="line">该注释不会显示。</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li>html注释<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--单行注释不会显示。--&gt;</span></span><br><span class="line"><span class="comment">&lt;!--</span></span><br><span class="line"><span class="comment">多行注释，</span></span><br><span class="line"><span class="comment">不会在显示。</span></span><br><span class="line"><span class="comment">--&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li>hack方法<br>根据Markdown的解析原理来注释，比较稳定，但语义化差。<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[<span class="symbol">//</span>]: <span class="link"># (哈哈我是最强注释，不会在浏览器中显示。)</span></span><br><span class="line">[<span class="symbol">^_^</span>]: <span class="link"># (哈哈我是最萌注释，不会在浏览器中显示。)</span></span><br><span class="line">[<span class="symbol">//</span>]: <span class="link">&lt;&gt; (哈哈我是注释，不会在浏览器中显示。)</span></span><br><span class="line">[<span class="symbol">comment</span>]: <span class="link">&lt;&gt; (哈哈我是注释，不会在浏览器中显示。)</span></span><br></pre></td></tr></table></figure>
+<h4 id="2-2-标题和列表"><a href="#2-2-标题和列表" class="headerlink" title="2.2 标题和列表"></a>2.2 标题和列表</h4></li>
+<li>标题<br>&emsp;&emsp;Markdown支持六级标题，用#的数目表示级数。<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
+e.g.<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></li>
+<li>列表<br>&emsp;&emsp;列表分为有序列表和无序列表，另外还有任务列表。<ul>
+<li>无序列表<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> 无序列表</span><br><span class="line"><span class="bullet">-</span> 无序列表</span><br></pre></td></tr></table></figure>
+e.g.</li>
+</ul>
+</li>
+<li>无序列表</li>
+<li>无序列表<ul>
+<li>有序列表<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 有序列表</span><br><span class="line"><span class="bullet">2.</span> 有序列表</span><br></pre></td></tr></table></figure>
+e.g.</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>有序列表</li>
+<li>有序列表</li>
+</ol>
+<ul>
+<li>任务列表<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> [ ] 任务一 未做任务 <span class="code">`- + 空格 + [ ]`</span></span><br><span class="line"><span class="bullet">-</span> [x] 任务二 已做任务 <span class="code">`- + 空格 + [x]`</span></span><br></pre></td></tr></table></figure>
+e.g.</li>
+<li><input disabled="" type="checkbox"> 任务一 未做任务</li>
+<li><input checked="" disabled="" type="checkbox"> 任务二 已做任务</li>
+</ul>
+<h4 id="2-3-字体改变"><a href="#2-3-字体改变" class="headerlink" title="2.3 字体改变"></a>2.3 字体改变</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">*斜体*</span>或<span class="emphasis">_斜体_</span></span><br><span class="line"><span class="strong">**粗体**</span></span><br><span class="line"><span class="strong">**<span class="emphasis">*加粗斜体<span class="strong">**<span class="emphasis">*</span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">~~删除线~~</span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">++下划线++</span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">==背景高亮==</span></span></span></span></span><br></pre></td></tr></table></figure>
+<p>e.g.<br><em>斜体</em>或<em>斜体</em><br><strong>粗体</strong><br>**<em>加粗斜体**</em><br><del>删除线</del><br>++下划线++<br>==背景高亮==</p>
+<h4 id="2-4-超链接"><a href="#2-4-超链接" class="headerlink" title="2.4 超链接"></a>2.4 超链接</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">链接名称</span>](<span class="link">链接地址</span>)</span><br></pre></td></tr></table></figure>
+<p>e.g.<br><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-cn">维基百科</a></p>
+<h4 id="2-5-注脚"><a href="#2-5-注脚" class="headerlink" title="2.5 注脚"></a>2.5 注脚</h4><p>&emsp;&emsp;在需要添加注脚的文字后加上脚注名字<code>[^注脚名字]</code>,称为加注。 然后在文本的任意位置(一般在最后)添加脚注，脚注前必须有对应的脚注名字。</p>
+<h4 id="2-6-插入图像"><a href="#2-6-插入图像" class="headerlink" title="2.6 插入图像"></a>2.6 插入图像</h4><p>&emsp;&emsp;语法：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">图片Alt</span>](<span class="link">图片地址 &quot;图片Title&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-7-引用"><a href="#2-7-引用" class="headerlink" title="2.7 引用"></a>2.7 引用</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 引用内容</span></span><br><span class="line"><span class="quote">&gt; &gt; 支持多级引用</span></span><br></pre></td></tr></table></figure>
+<p>e.g.</p>
+<blockquote>
+<p>引用内容</p>
+</blockquote>
+<h4 id="2-8-表格"><a href="#2-8-表格" class="headerlink" title="2.8 表格"></a>2.8 表格</h4><p>&emsp;&emsp;第一行为表头，第二行分隔表头和主体部分，第三行开始每一行为一个表格行。列于列之间用管道符|隔开。原生方式的表格每一行的两边也要有管道符。第二行还可以为不同的列指定对齐方向。默认为左对齐，在-右边加上:就右对齐。<code>-</code>左对齐，<code> :-:</code> 中心对齐，<code>-:</code> 右对齐。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">|学号|姓名|序号|</span><br><span class="line">|-|-|-|</span><br><span class="line">|小明明|男|5|</span><br><span class="line">|小红|女|79|</span><br><span class="line">|小陆|男|192|</span><br></pre></td></tr></table></figure>
+<p>e.g.</p>
+<table>
+<thead>
+<tr>
+<th>学号</th>
+<th>姓名</th>
+<th>序号</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>小明明</td>
+<td>男</td>
+<td>5</td>
+</tr>
+<tr>
+<td>小红</td>
+<td>女</td>
+<td>79</td>
+</tr>
+<tr>
+<td>小陆</td>
+<td>男</td>
+<td>192</td>
+</tr>
+</tbody></table>
+<h4 id="2-9-数学公式"><a href="#2-9-数学公式" class="headerlink" title="2.9 数学公式"></a>2.9 数学公式</h4><ul>
+<li>行内公式</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$E &#x3D; m c^2$</span><br></pre></td></tr></table></figure>
+<p>e.g.</p>
+<p>$E = m c^2$</p>
+<ul>
+<li>行间公式</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$$E &#x3D; m c^2$$</span><br></pre></td></tr></table></figure>
+<p>e.g.</p>
+<p>$$E = m c^2$$</p>
+<h4 id="2-10-分隔线"><a href="#2-10-分隔线" class="headerlink" title="2.10 分隔线"></a>2.10 分隔线</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">*</span> <span class="emphasis">* *</span></span><br><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong">****</span>*</span></span></span><br><span class="line"><span class="strong">- - -</span></span><br><span class="line"><span class="strong">-----------</span></span><br></pre></td></tr></table></figure>
+<p>e.g.</p>
+<hr>
+<p>&emsp;&emsp;Markdown还有许多其他语法，可参考其他网上教程。<a href="%5BMarkdown%E8%AF%AD%E6%B3%95%E5%A4%A7%E5%85%A8(%E8%B6%85%E7%BA%A7%E7%89%88)%5D(https://www.jianshu.com/p/ebe52d2d468f)">^2</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/10/01/Markdown%20Grammar%20Learn/" data-id="ckgxga2fr0000bkv7f1gqbrvx" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/" rel="tag">Markdown语法学习</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/" rel="tag">Markdown语法学习</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/" style="font-size: 10px;">Markdown语法学习</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">October 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/10/01/Markdown%20Grammar%20Learn/">Markdown语法学习</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
